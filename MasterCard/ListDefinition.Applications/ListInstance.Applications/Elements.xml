@@ -5,5 +5,14 @@
                 TemplateType="11201"
                 Url="Lists/Applications"
                 Description="Applications List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="_openinNew">1</Field>
+          <Field Name ="URL">http://www.google.com, Google</Field>
+
+        </Row>
+      </Rows>
+    </Data>
   </ListInstance>
 </Elements>

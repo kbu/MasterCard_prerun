@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<List xmlns:ows="Microsoft SharePoint" Title="MasterCard - MasterCard.SharePoint.ListDefinition.Applications" Direction="$Resources:core,Direction;" OrderedList="TRUE" Url="Lists/MasterCard-MasterCard.SharePoint.ListDefinition.Applications" BaseType="0" DisableAttachments="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/">
+<List xmlns:ows="Microsoft SharePoint" Title="MasterCard - ListDefinition.Applications" Direction="$Resources:core,Direction;" OrderedList="TRUE" Url="Lists/MasterCard-ListDefinition.Applications" BaseType="0" DisableAttachments="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/">
   <MetaData>
     <ContentTypes>
       <ContentTypeRef ID="0x0105">
@@ -9,7 +9,7 @@
     </ContentTypes>
     <Fields>
       <!--Custom Feild for MasterCard-->
-      <Field ID="{EC447387-2AFD-4473-BDD2-4612F9F0F549}" Group="MasterCard Columns" Type="Boolean" DisplayName="Open in New Window" Required="TRUE" Indexed="FALSE" Name="_openinNew" ></Field>
+      <Field ID="{EC447387-2AFD-4473-BDD2-4612F9F0F549}" ShowInDisplayForm="TRUE" ShowInEditForm="TRUE" Group="MasterCard Columns" Type="Boolean" DisplayName="Open in New Window" Required="TRUE" Indexed="FALSE" Name="_openinNew" ></Field>
       <!--Custom Feild for MasterCard-->
       <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" ReadOnly="TRUE" Required="FALSE" Hidden="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title"></Field>
       <Field ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" Hidden="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitle"></Field>
@@ -57,8 +57,9 @@
           </OrderBy>
         </Query>
         <ViewFields>
-          <FieldRef Name="URL" Explicit="TRUE"></FieldRef>
-          <FieldRef Name="URLNoMenu"></FieldRef>
+          <FieldRef Name="URLwMenu"></FieldRef>
+          <FieldRef Name="Comments"></FieldRef>
+          <FieldRef Name="_openinNew"></FieldRef>
         </ViewFields>
         <ParameterBindings>
           <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,nofavlinks_toaddlinkclickaddnewlink)" />
@@ -73,9 +74,10 @@
         <XslLink Default="TRUE">main.xsl</XslLink>
         <RowLimit Paged="TRUE">30</RowLimit>
         <ViewFields>
-          <FieldRef Name="_openinNew"></FieldRef>
+          
           <FieldRef Name="URLwMenu"></FieldRef>
           <FieldRef Name="Comments"></FieldRef>
+          <FieldRef Name="_openinNew"></FieldRef>
         </ViewFields>
         <ParameterBindings>
           <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />

@@ -53,13 +53,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Features\MasterCard.SharePoint.Feature.ListDefinitions\MasterCard.SharePoint.Feature.ListDefinitions.feature">
-      <FeatureId>{8bafd31f-98d4-4acd-a1f1-a78365400f3e}</FeatureId>
+    <None Include="Features\ListDefinitions\ListDefinitions.feature">
+      <FeatureId>{4d01203e-87f1-47d8-9101-968215ecaa0f}</FeatureId>
     </None>
-    <None Include="MasterCard.SharePoint.ListDefinition.Applications\MasterCard.SharePoint.ListInstance.Applications\SharePointProjectItem.spdata">
+    <None Include="ListDefinition.Applications\ListInstance.Applications\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{1c82f61a-09c5-426c-8424-f821737bf1ef}</SharePointProjectItemId>
     </None>
-    <None Include="MasterCard.SharePoint.ListDefinition.Applications\SharePointProjectItem.spdata">
+    <None Include="ListDefinition.Applications\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8098089c-e32c-449d-b93f-94fe8866df28}</SharePointProjectItemId>
     </None>
     <None Include="MasterCardkey.snk" />
@@ -72,12 +72,14 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Features\MasterCard.SharePoint.Feature.ListDefinitions\MasterCard.SharePoint.Feature.ListDefinitions.Template.xml">
-      <DependentUpon>MasterCard.SharePoint.Feature.ListDefinitions.feature</DependentUpon>
+    <Content Include="Features\ListDefinitions\ListDefinitions.Template.xml">
+      <DependentUpon>ListDefinitions.feature</DependentUpon>
     </Content>
-    <Content Include="MasterCard.SharePoint.ListDefinition.Applications\Elements.xml" />
-    <Content Include="MasterCard.SharePoint.ListDefinition.Applications\MasterCard.SharePoint.ListInstance.Applications\Elements.xml" />
-    <Content Include="MasterCard.SharePoint.ListDefinition.Applications\Schema.xml">
+    <Content Include="ListDefinition.Applications\Elements.xml" />
+    <Content Include="ListDefinition.Applications\ListInstance.Applications\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ListDefinition.Applications\Schema.xml">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>

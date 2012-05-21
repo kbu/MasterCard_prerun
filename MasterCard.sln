@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterCard.SharePoint.ListDefinitions", "MasterCard\MasterCard.SharePoint.ListDefinitions.csproj", "{034E52B6-7AC3-4DA7-BAF9-C9E02CC4D111}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterCard.SharePoint", "MasterCard\MasterCard.SharePoint.csproj", "{034E52B6-7AC3-4DA7-BAF9-C9E02CC4D111}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
