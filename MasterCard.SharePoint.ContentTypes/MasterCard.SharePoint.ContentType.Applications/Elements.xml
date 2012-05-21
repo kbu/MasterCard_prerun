@@ -1,12 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Field
-   ID="{EC447387-2AFD-4473-BDD2-4612F9F0F549}" Group="MasterCard Columns"
-   Type="Boolean"   
-   DisplayName="Open in New Window"
-   Required="TRUE"
-   Indexed="FALSE"
-   Name="_openinNew" />
+
   
   <!-- Parent ContentType: Link (0x0105) -->
   <ContentType ID="0x010500039acedd0872474aaef1b02da4efa3ba"
