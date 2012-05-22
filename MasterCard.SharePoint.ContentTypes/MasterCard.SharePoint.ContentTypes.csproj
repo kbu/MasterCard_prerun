@@ -56,8 +56,8 @@
     <None Include="Features\MasterCard.SharePoint.Feature.ContentTypes\MasterCard.SharePoint.Feature.ContentTypes.feature">
       <FeatureId>{5df15ebe-9bf0-47c4-a8e5-c89d44609a3b}</FeatureId>
     </None>
-    <None Include="MasterCard.SharePoint.ContentType.Applications\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{3630375f-f9a1-454d-9a26-9f074edca508}</SharePointProjectItemId>
+    <None Include="MasterCard.SharePoint\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{73f0cedc-607a-432a-9736-c867788e8c67}</SharePointProjectItemId>
     </None>
     <None Include="MasterCardkey.snk" />
     <None Include="Package\Package.package">
@@ -71,9 +71,7 @@
     <Content Include="Features\MasterCard.SharePoint.Feature.ContentTypes\MasterCard.SharePoint.Feature.ContentTypes.Template.xml">
       <DependentUpon>MasterCard.SharePoint.Feature.ContentTypes.feature</DependentUpon>
     </Content>
-    <Content Include="MasterCard.SharePoint.ContentType.Applications\Elements.xml">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="MasterCard.SharePoint\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />

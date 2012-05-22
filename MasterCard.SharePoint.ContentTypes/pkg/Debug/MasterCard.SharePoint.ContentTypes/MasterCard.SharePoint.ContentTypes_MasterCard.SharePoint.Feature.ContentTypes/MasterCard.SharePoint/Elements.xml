@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!--Custom Feild for MasterCard-->
+  <Field ID="{EC447387-2AFD-4473-BDD2-4612F9F0F549}"
+         ShowInDisplayForm="TRUE"
+         ShowInEditForm="TRUE"
+         Group="MasterCard Columns"
+         Type="Boolean"
+         DisplayName="Open in New Window"
+         Required="TRUE"
+         Indexed="FALSE"
+         Name="_openinNew" ></Field>
+  <!--Custom Feild for MasterCard-->
+  <!-- Parent ContentType: Link (0x0105) -->
+  <ContentType ID="0x010500fb17f6d259ec465b9ebaf64cc259dba8"
+               Name="CustomLink"
+               Group="MasterCard Content Types"
+               Description="CustomLink with Open in New window functionality"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+     
+        <FieldRef ID="{EC447387-2AFD-4473-BDD2-4612F9F0F549}" Name="_openinNew" />       
+
+    </FieldRefs>
+  </ContentType>
+</Elements>
