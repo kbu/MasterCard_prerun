@@ -1,0 +1,5 @@
+C:\MasterCard.Source\MasterCard\MasterCard.SharePoint.PageLayouts\bin\Debug\MasterCard.SharePoint.PageLayouts.dll
+C:\MasterCard.Source\MasterCard\MasterCard.SharePoint.PageLayouts\bin\Debug\MasterCard.SharePoint.PageLayouts.pdb
+C:\MasterCard.Source\MasterCard\MasterCard.SharePoint.PageLayouts\obj\Debug\ResolveAssemblyReference.cache
+C:\MasterCard.Source\MasterCard\MasterCard.SharePoint.PageLayouts\obj\Debug\MasterCard.SharePoint.PageLayouts.dll
+C:\MasterCard.Source\MasterCard\MasterCard.SharePoint.PageLayouts\obj\Debug\MasterCard.SharePoint.PageLayouts.pdb

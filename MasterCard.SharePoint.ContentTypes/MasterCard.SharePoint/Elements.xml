@@ -10,6 +10,38 @@
          Required="TRUE"
          Indexed="FALSE"
          Name="_openinNew" ></Field>
+
+  <Field ID="{1FFB039F-919E-46a9-A68C-90552D07D82A}" 
+         Type="Computed" 
+         Name="_URLNewWinLink" 
+         ShowInDisplayForm="FALSE"
+         ShowInEditForm="FALSE"
+         DisplayName="URL" 
+         ReadOnly="TRUE" 
+         Filterable="FALSE" 
+         DisplayNameSrcField="URL" 
+         AuthoringInfo="(with new window feature)">
+    <FieldRefs>
+      <FieldRef Name="URL"/>
+      <FieldRef Name="_openinNew"/>
+    </FieldRefs>
+    <DisplayPattern>
+      <HTML><![CDATA[<A HREF="]]></HTML>
+      <Column Name="URL" HTMLEncode="TRUE"/>
+      <HTML><![CDATA["]]></HTML>
+      <Switch>
+        <Expr>
+          <Column Name="_openinNew"/>
+        </Expr>
+        <Case Value="1">
+          <HTML><![CDATA[ target="_blank"]]></HTML>
+        </Case>
+      </Switch>
+      <HTML><![CDATA[>]]></HTML>
+    </DisplayPattern>
+  </Field>
+    
+  
   <!--Custom Feild for MasterCard-->
   <!-- Parent ContentType: Link (0x0105) -->
   <ContentType ID="0x010500fb17f6d259ec465b9ebaf64cc259dba8"
@@ -19,8 +51,9 @@
                Inherits="TRUE"
                Version="0">
     <FieldRefs>
-     
-        <FieldRef ID="{EC447387-2AFD-4473-BDD2-4612F9F0F549}" Name="_openinNew" />       
+
+      <FieldRef ID="{EC447387-2AFD-4473-BDD2-4612F9F0F549}" Name="_openinNew" />
+      <FieldRef ID="{1FFB039F-919E-46a9-A68C-90552D07D82A}" Name="_URLNewWinLink" />       
 
     </FieldRefs>
   </ContentType>

@@ -1,0 +1,5 @@
+C:\MasterCard.Source\MasterCard\MasterCard.SharePoint.ApplicationHub\bin\Debug\MasterCard.SharePoint.ApplicationHub.dll
+C:\MasterCard.Source\MasterCard\MasterCard.SharePoint.ApplicationHub\bin\Debug\MasterCard.SharePoint.ApplicationHub.pdb
+C:\MasterCard.Source\MasterCard\MasterCard.SharePoint.ApplicationHub\obj\Debug\ResolveAssemblyReference.cache
+C:\MasterCard.Source\MasterCard\MasterCard.SharePoint.ApplicationHub\obj\Debug\MasterCard.SharePoint.ApplicationHub.dll
+C:\MasterCard.Source\MasterCard\MasterCard.SharePoint.ApplicationHub\obj\Debug\MasterCard.SharePoint.ApplicationHub.pdb

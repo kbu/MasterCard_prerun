@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="02ba8047-6331-456a-91ee-9a8ca9d320cb" solutionId="02ba8047-6331-456a-91ee-9a8ca9d320cb" resetWebServer="false" name="MasterCard.SharePoint.PageLayouts" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="874a412e-c511-4ee2-ba14-4d7eb3a30010" />
+  </features>
+</package>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="ff9be476-d41c-4690-b337-7ee14c03827a" Scope="Web" Title="MasterCard.SharePoint.PageLayouts Feature1">
+  <ElementManifests>
+    <ElementManifest Location="PageLayouts\Elements.xml" />
+    <ElementFile Location="PageLayouts\BusinessUnit.aspx" />
+  </ElementManifests>
+</Feature>

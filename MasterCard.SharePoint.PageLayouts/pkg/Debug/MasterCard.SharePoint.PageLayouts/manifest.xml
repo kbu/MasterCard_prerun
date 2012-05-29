@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="02ba8047-6331-456a-91ee-9a8ca9d320cb" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="MasterCard.SharePoint.PageLayouts.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="PageLayouts\Feature.xml" />
+  </FeatureManifests>
+</Solution>

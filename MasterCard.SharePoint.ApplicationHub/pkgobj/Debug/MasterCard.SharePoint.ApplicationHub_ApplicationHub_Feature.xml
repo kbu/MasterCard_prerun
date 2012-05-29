@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="MasterCard.SharePoint.ApplicationHub" Id="eb28fb90-2d85-4653-95e0-50f5a56c17a9" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="ListInstance\Elements.xml" />
+    <ElementManifest Location="ApplicationsList\Elements.xml" />
+    <ElementFile Location="ApplicationsList\Schema.xml" />
+  </ElementManifests>
+</Feature>
